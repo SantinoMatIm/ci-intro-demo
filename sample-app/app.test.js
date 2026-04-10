@@ -5,7 +5,7 @@ describe('GET /', () => {
   test('responde 200 y el texto esperado', async () => {
     const response = await request(app).get('/');
     expect(response.status).toBe(200);
-    expect(response.text).toBe('Hola desde la app');
+    expect(response.text).toBe('Hola desde la app de demostración');
   });
 });
 
